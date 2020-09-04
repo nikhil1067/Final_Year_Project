@@ -1,0 +1,271 @@
+* {
+    margin: -1px;
+    padding: -1px;
+    box-sizing: border-box;
+   
+}
+
+#navbar {
+    margin: 2px;
+    padding: 2px;
+    position: fixed;
+    top:-1;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 100%;
+    perspective: 1000px;
+    font-family: 'Lobster Two', cursive;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+   
+}
+
+.navlink {
+    color: #FFF;
+    font-size: 1.5em;
+    text-align: right;
+    padding: .5em;
+    text-decoration: none;
+    align-content: flex-start;
+    
+}
+
+.navlink:hover {
+    text-decoration: none;
+}
+
+.active {
+    font-size: 2.5em;
+}
+
+.links {
+    float: right;
+    font-size: 1.2em;
+    margin: 10px;
+    
+}
+
+#row{
+    display: flex;
+    font-size: 25px;
+}
+
+.text{
+    padding:20px;
+}
+
+body{
+    background-color: rgb(221, 221, 235); 
+    background: url('Backgrounds/test.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+
+}
+/* caraousel */
+.caraousel{
+    width:100%;
+    height:70vh;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+.mySlides{
+    align-content: center;
+    height:70vh;
+    
+}
+#sec1{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width:60%;
+    border-radius: 10px;
+    margin: 40px;
+    margin-top: 100px;
+    perspective: 1000px;
+    z-index: -1;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    
+    
+}
+#sec2{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 40%;
+    border-radius: 10px;
+    margin: 40px;
+    margin-top: 100px;
+    perspective: 1000px;
+    z-index: -1;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    
+}
+
+#signin,#signup{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    position: absolute;
+    margin:auto;
+	top:0;
+	bottom: 0;
+	left: 0;
+    right: 0;   
+    height: 60%;
+    width: 30%;
+    padding: 50px;
+    align-content: center;
+    justify-content: center;
+    color:#FFF;
+    
+}
+#signup{
+    height: 65%;
+}
+
+#signin>div>h1,#signup>div>h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#signin div,#signup div{
+    margin-bottom: 20px;
+    
+}
+
+#signin label,#signup label{
+    font-size:1.3em;
+}
+#signin input[type="email"], input[type="password"],#signup input[type="email"], input[type="password"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #FFF;
+    font-size:1.3em;
+    background: transparent;
+    color: #FFF;
+    height: 40px;
+}
+
+#signin input[type="submit"],#signup input[type="submit"]{
+    width: 50%;
+    font-size:1.3em;
+    border: none;
+    margin-top: 40px;
+    outline: none;
+    height: 40px;
+    background-image: linear-gradient(to right,#F26FC9, #8772EF);
+    color: #ffff;
+    
+}
+#signin input[type="submit"]:hover,#signup input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #696969;
+}
+.wpass{
+    display: none;
+}
+
+/* View Issues       */
+
+#element{
+    background-color: #313c795b;
+    margin: 20px;
+    border-radius: 10px;
+    width:60%;
+    transition:all .5s ;
+    margin-left:20%;
+}
+
+#element:hover{
+    
+    transform: scale(1.1);
+}
+
+.search-btn{
+    border: 2px solid #9884fc;
+    margin-top:100px;
+    margin-left:40%;
+    
+    height: 40px;
+    font-size: 1em;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+    background: rgba(255, 255, 255, 0);
+    padding: 10px 15px 10px 45px;
+    font-weight: 300;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.instruction{
+    width: 50%;
+    height: 20vh;
+    background-color: #69696960;
+    margin-left: 25%;
+}
+.inshead{
+    padding: 15px;
+    padding-top: 30px;
+}
+.list{
+padding: 20px;
+list-style-type: none;
+display: flex;
+}
+
+.f-btn{
+    width: 15%;
+    height: 40px;
+    font-size:1.3em;
+    border: none;
+    
+    outline: none;
+    
+    background-image: linear-gradient(to right,#F26FC9, #8772EF);
+    color: #ffff;
+}
+.item{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+.oth-item{
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    
+
+}
+
+/* Error */
+.error{
+    color: red;
+    
+    
+}
+/* Scroll Out  */
+
+[data-scroll] {
+    transition: all 1s ease;
+  }
+  [data-scroll="in"] {
+    transform: translateX(0);
+    opacity: 1;
+    
+  }
+  [data-scroll="out"] {
+    transform: translateX(-100px)scale(1.1);
+    
+
+    opacity: 0;
+
+  }
+  [data-scroll="out"]:nth-child(2) {
+    transform: translateX(100px)scale(1.1);
+    
+
+    opacity: 0;
+
+  }
+
+/* End */
