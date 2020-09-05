@@ -21,7 +21,7 @@
             <a href="index.html" class="navlink active">Teach for tomorrow</a>
             <div class="links">
                 <a href="signup.html" class="navlink">Sign up</a>
-                
+                <a href="aboutus.html" class="navlink">About Us</a>
             </div>
         </div>
 
@@ -36,7 +36,7 @@
                 Sign in
             </h1>
         </div>
-        <form action="#" >
+        <form action="/signin.html" method="POST">
             <div>
                 <label>Email</label>
                 <input type="email" name="email"  value="">
@@ -46,7 +46,11 @@
                 <input type="password" name="password"  value="">
 
             </div>
-            
+            {{#if message}}
+            <div class="error" role="alert">
+                {{message}}
+            </div>
+        {{/if}}
             <input type="submit" name="login" value="Login">
             
         </form>
