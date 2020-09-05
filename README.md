@@ -1,6 +1,12 @@
 # Eduthon
 ## Teach For Tomorrow
 
+**Getting Started**
+```
+> clone the repo
+> npm install i
+```
+
 **ABOUT**
 
 Here at teach for tom, we work towards organizing a community of such individuals who can spare some of their daily time for the betterment of lives of those who are a little less fortunate.
