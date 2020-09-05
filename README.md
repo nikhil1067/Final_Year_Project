@@ -9,7 +9,7 @@
 
 **ABOUT**
 
-Here at teach for tom, we work towards organizing a community of such individuals who can spare some of their daily time for the betterment of lives of those who are a little less fortunate.
+Here at teach for tomorrow, we work towards organizing a community of such individuals who can spare some of their daily time for the betterment of lives of those who are a little less fortunate.
 It’s a platform for people who are willing and passionate about teaching students for better tomorrow.
 
 
