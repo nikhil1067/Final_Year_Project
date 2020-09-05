@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lobster+Two:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+
+    <title>View posted issues</title>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div>
+            <a href="index.html" class="navlink active">Teach for tomorrow</a>
+            <div class="links">
+                
+                <a href="viewissues.html" class="navlink">View issues</a>
+                <a href="aboutus.html" class="navlink">About Us</a>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <div class="testbox">
+        <form action="/request" method="POST">
+          <div class="banner">
+            <h1>Post new Issue</h1>
+          </div>
+          <div class="item">
+            <p>Full Name</p>
+            <div class="item">
+              <input type="text" name="name" placeholder="" required/>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="item">
+              <p>Email</p><br>
+              <input type="email" name="email" placeholder="" required/>
+            </div>
+            <div class="item">
+              <p>Phone</p><br>
+              <input type="number" name="phone"  placeholder="+91" required/>
+            </div>
+          </div>
+          <div class="item">
+            <p>Special Request</p><br>
+            <input type="text" name="itemRequest" required/>
+          </div>
+          <div class="item">
+            <p>Job Requirement</p><br>
+            <input type="text" name="Requirement" required/>
+          </div>
+          <div class="item">
+              <p>Job Description</p><br>
+              <textarea rows="2" name="jobDescription" required></textarea>
+            </div>
+          <div class="item">
+              <p>Location</p><br>
+              <input type="text" name="jobLocation" placeholder="" required/>
+          </div><br>
+           <div class="btn-block">
+            <button type="submit" href="/">Submit</button>
+          </div>
+        </form>
+      </div>
+   
+</body>
+
+
+<footer id=foot>
+
+</footer>
+
+
+</html>
